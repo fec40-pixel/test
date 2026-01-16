@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centre Dentaire | Soins Dentaires Modernes</title>
+  <meta name="description" content="Centre dentaire moderne – soins dentaires, orthodontie, implantologie et esthétique dentaire." />
+  <style>
+    body {margin:0;font-family:Arial,Helvetica,sans-serif;color:#1f2937;background:#ffffff;}
+    header {background:#0ea5e9;color:white;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;}
+    header nav a {color:white;margin-left:20px;text-decoration:none;font-weight:600;}
+    .hero {display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:80px 40px;background:#f0f9ff;}
+    .hero h1 {font-size:42px;margin-bottom:20px;}
+    .hero p {font-size:18px;margin-bottom:30px;}
+    .btn {background:#0ea5e9;color:white;padding:14px 26px;border-radius:6px;text-decoration:none;font-weight:bold;}
+    section {padding:70px 40px;}
+    .services {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;}
+    .card {background:#f8fafc;padding:30px;border-radius:10px;box-shadow:0 10px 25px rgba(0,0,0,0.05);}
+    .card h3 {margin-bottom:10px;}
+    .team {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;text-align:center;}
+    .team img {width:100%;border-radius:10px;margin-bottom:15px;}
+    .contact {background:#f0f9ff;display:grid;grid-template-columns:1fr 1fr;gap:40px;}
+    footer {background:#020617;color:white;text-align:center;padding:25px;}
+    @media(max-width:768px){.hero,.contact{grid-template-columns:1fr;}header{flex-direction:column;}}
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Centre Dentaire</h2>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#equipe">Équipe</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="accueil">
+  <div>
+    <h1>Centre Dentaire Moderne</h1>
+    <p>Des soins dentaires de qualité, modernes et personnalisés pour toute la famille.</p>
+    <a href="#contact" class="btn">Prendre Rendez-vous</a>
+  </div>
+  <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Cabinet dentaire" style="width:100%;border-radius:12px;">
+</section>
+
+<section id="services">
+  <h2>Nos Services</h2>
+  <div class="services">
+    <div class="card"><h3>Soins Dentaires</h3><p>Traitements généraux et prévention.</p></div>
+    <div class="card"><h3>Orthodontie</h3><p>Alignement des dents enfants et adultes.</p></div>
+    <div class="card"><h3>Implantologie</h3><p>Remplacement des dents manquantes.</p></div>
+    <div class="card"><h3>Esthétique Dentaire</h3><p>Blanchiment et sourire parfait.</p></div>
+  </div>
+</section>
+
+<section id="equipe">
+  <h2>Notre Équipe</h2>
+  <div class="team">
+    <div>
+      <img src="https://images.unsplash.com/photo-1606813909355-0a4f46c98d2c" alt="Dentiste">
+      <h4>Dr. Dentiste</h4>
+      <p>Chirurgien-dentiste</p>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d" alt="Dentiste">
+      <h4>Dr. Spécialiste</h4>
+      <p>Orthodontiste</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div>
+    <h2>Contact</h2>
+    <p>📍 Casablanca – Maroc</p>
+    <p>📞 +212 6 00 00 00 00</p>
+    <p>💬 WhatsApp disponible</p>
+  </div>
+  <form>
+    <input type="text" placeholder="Nom" style="width:100%;padding:12px;margin-bottom:12px;">
+    <input type="email" placeholder="Email" style="width:100%;padding:12px;margin-bottom:12px;">
+    <textarea placeholder="Message" style="width:100%;padding:12px;margin-bottom:12px;"></textarea>
+    <button class="btn" type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Centre Dentaire — Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
